@@ -7,6 +7,7 @@ package model;
  */
 public class Answer implements java.io.Serializable {
 
+	private static final long serialVersionUID = 1L;
 	private int idAnswer;
 	private Question question;
 	private String text;
